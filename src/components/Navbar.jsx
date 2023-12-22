@@ -11,24 +11,27 @@ const Navbar = () => {
   return (
     <>
       <div>
-        <nav className=" mx-auto mt-1 hidden max-w-[1140px] items-center justify-evenly p-2 font-poppin text-xs font-semibold text-gray-500 md:flex ">
-          <img src={logo} alt="logo" className="h-12 " />
-          <a href="#" className=" hover:text-blue-500">
+        <nav
+          className=" text-md mx-auto mt-1 hidden max-w-[1240px] items-center  justify-evenly p-2 font-poppin font-semibold text-gray-700 
+        md:flex md:space-x-4"
+        >
+          <img src={logo} alt="logo" className="h-14 " />
+          <a href="#" className=" duration-100 ease-in-out hover:text-blue-500">
             Consulation
           </a>
-          <a href="#" className=" hover:text-blue-500">
+          <a href="#" className=" duration-100 ease-in-out hover:text-blue-500">
             Health Plans
           </a>
-          <a href="#" className=" hover:text-blue-500">
+          <a href="#" className=" duration-100 ease-in-out hover:text-blue-500">
             Order Medicine
           </a>
-          <a href="#" className=" hover:text-blue-500">
+          <a href="#" className=" duration-100 ease-in-out hover:text-blue-500">
             Home Diagnostics
           </a>
-          <a href="#" className=" hover:text-blue-500">
+          <a href="#" className=" duration-100 ease-in-out hover:text-blue-500">
             Employee & NGOs
           </a>
-          <a href="#" className=" hover:text-blue-500">
+          <a href="#" className=" duration-100 ease-in-out hover:text-blue-500">
             For Doctors
           </a>
           <button className="ml-10 rounded-full bg-blue-500 px-4 py-1.5 text-white ease-in-out hover:bg-blue-600">
