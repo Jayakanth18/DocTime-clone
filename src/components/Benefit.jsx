@@ -2,7 +2,7 @@ import React from "react";
 
 import clock from "../assets/Benefit_page/clock.svg";
 import health from "../assets/Benefit_page/health_insurance_benefits.svg";
-import phone from "../assets/Benefit_page/holding_phone.svg";
+// import phone from "../assets/Benefit_page/holding_phone.svg";
 import medicine from "../assets/Benefit_page/medicine_delivery.svg";
 import health_record from "../assets/Benefit_page/personal_health_recordhealth.svg";
 import personalized_health from "../assets/Benefit_page/personalized_health.svg";

@@ -51,7 +51,7 @@ const LandingPage = () => {
         </button>
       </div>
       {/* grid */}
-      <div className="mx-auto grid max-w-[1240px] grid-cols-1 font-poppin text-base font-medium md:absolute md:top-[500px] md:grid-cols-2 lg:grid-cols-4 lg:gap-10 lg:text-base 2xl:left-[650px] 2xl:top-[650px] 2xl:text-lg 2xl:pt-10">
+      <div className="mx-auto grid max-w-[1240px] grid-cols-1 font-poppin text-base font-medium md:absolute md:top-[500px] md:grid-cols-2 lg:grid-cols-4 lg:gap-10 lg:text-base 2xl:left-[650px] 2xl:top-[650px] 2xl:pt-10 2xl:text-lg">
         <div className="flex flex-col items-center p-2 text-center">
           <img src={boost} alt="" />
           <p className="p-6">
