@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Details from "./components/Details";
 import Benefit from "./components/Benefit";
 import Banner from "./components/Banner";
+import { Clients } from "./components/Clients";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Details />
       <Benefit />
       <Banner />
+      <Clients />
+      <Footer />
     </>
   );
 }

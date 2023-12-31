@@ -15,7 +15,7 @@ const Navbar = () => {
           className=" text-md mx-auto mt-1 hidden max-w-[1240px] items-center  justify-evenly p-2 font-poppin font-semibold text-gray-700 
         md:flex md:space-x-4"
         >
-          <img src={logo} alt="logo" className="h-14 " />
+          <img src={logo} alt="logo" className="h-14 cursor-pointer" />
           <a href="#" className=" duration-100 ease-in-out hover:text-blue-500">
             Consulation
           </a>

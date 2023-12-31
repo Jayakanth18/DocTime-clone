@@ -6,7 +6,7 @@ import stethoscope from "../assets/Banner/stethoscope.svg";
 
 const Banner = () => {
   return (
-    <div className="bg-blue-100">
+    <div className="bg-blue-50">
       <div className="mx-auto max-w-[1240px]  font-poppin">
         <h1 className="p-6 text-center text-xl font-bold lg:text-3xl">
           DocTime is the number 1 digital healthcare service provider in
@@ -21,7 +21,7 @@ const Banner = () => {
                 <img src={download} alt="" className="p-3" />
                 <span className="text-center">1M</span>
               </div>
-              <p className="text-center text-sm md:text-base">
+              <p className="text-center text-sm md:text-base lg:text-lg">
                 Download in google play store
               </p>
             </div>
@@ -31,7 +31,7 @@ const Banner = () => {
                 <img src={star} alt="" className="p-3" />
                 <span>4.8</span>
               </div>
-              <p className="text-center text-sm md:text-base">
+              <p className="text-center text-sm md:text-base lg:text-lg">
                 Play Store ratings by over 10,000 users
               </p>
             </div>
@@ -41,7 +41,7 @@ const Banner = () => {
                 <img src={waiting} alt="" className="p-3" />
                 <span>1150</span>
               </div>
-              <p className="text-center text-sm md:text-base">
+              <p className="text-center text-sm md:text-base lg:text-lg">
                 GPs and specialists verified by the BMDC
               </p>
             </div>
@@ -51,7 +51,7 @@ const Banner = () => {
                 <img src={stethoscope} alt="" className="p-3" />
                 <span>&lt;10 Mins</span>
               </div>
-              <p className="text-center text-sm md:text-base">
+              <p className="text-center text-sm md:text-base lg:text-lg">
                 Average waiting time for GP consultations
               </p>
             </div>
