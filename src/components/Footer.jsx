@@ -15,7 +15,7 @@ const Footer = () => {
     <div className="bg-blue-50">
       <div className="mx-auto grid max-w-[1240px] grid-cols-1 p-10 text-center font-poppin font-semibold text-gray-500 md:grid-cols-4 ">
         {/* 1 */}
-        <div className="border-gray-200 p-4 lg:border-r">
+        <div className="border-gray-400 p-4 lg:border-r">
           <img src={logo} className="cursor-pointer p-2" />
           <div className="p-1">
             <IoIosCall className="inline" /> <a href="">9876543210</a>
@@ -28,14 +28,14 @@ const Footer = () => {
             <address>2 KNP st, Ring Road, dhaka</address>
           </div>
           <div className="flex flex-row justify-center py-4">
-            <FaFacebook size={30} className="m-2" />
-            <FaInstagram size={30} className="m-2" />
-            <FaTwitter size={30} className="m-2" />
-            <FaYoutube size={30} className="m-2" />
+            <FaFacebook size={30} className="m-2 cursor-pointer" />
+            <FaInstagram size={30} className="m-2 cursor-pointer" />
+            <FaTwitter size={30} className="m-2 cursor-pointer" />
+            <FaYoutube size={30} className="m-2 cursor-pointer" />
           </div>
         </div>
         {/* 2 */}
-        <div className="flex flex-col border-gray-200 p-6 text-lg lg:border-r">
+        <div className="flex flex-col border-gray-400 p-6 text-lg lg:border-r">
           <a href="" className="py-2">
             About us
           </a>
@@ -53,7 +53,7 @@ const Footer = () => {
           </a>
         </div>
         {/* 3 */}
-        <div className="flex flex-col border-gray-200 p-6 text-lg lg:border-r">
+        <div className="flex flex-col border-gray-400 p-6 text-lg lg:border-r">
           <a href="" className="py-2">
             Contact Us
           </a>
@@ -78,7 +78,7 @@ const Footer = () => {
           <img src={browser} className="h-20 cursor-pointer p-3" />
         </div>
       </div>
-      <h1 className="border-t-1 m-auto max-w-[1240px] border-t border-gray-200 p-3 text-center font-poppin text-xs text-gray-500 lg:text-base">
+      <h1 className="border-t-1 m-auto max-w-[1240px] border-t border-gray-400 p-3 text-center font-poppin text-xs text-gray-500 lg:text-base">
         Copyright &copy; {new Date().getFullYear()}
         <span className="text-blue-500"> Doc</span>Time. All rights reserved.
       </h1>

@@ -5,7 +5,8 @@ import Benefit from "./components/Benefit";
 import Banner from "./components/Banner";
 import { Clients } from "./components/Clients";
 import Footer from "./components/Footer";
-
+import Stats from "./components/Stats";
+import Form from "./components/Form";
 function App() {
   return (
     <>
@@ -15,7 +16,9 @@ function App() {
       <Details />
       <Benefit />
       <Banner />
+      <Stats />
       <Clients />
+      <Form />
       <Footer />
     </>
   );
